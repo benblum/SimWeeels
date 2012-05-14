@@ -1062,7 +1062,7 @@ public class SimulatorGui extends JFrame implements VertexSelectionListener, Rem
  			passenger.makeRequest(ride);
  			ride = parser.getNextRide();
  		}
- 		timeline.setTickInterval(5000);
+ 		timeline.setTickInterval(1000);
     	timeline.run();
     }
 }
