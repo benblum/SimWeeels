@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.weeels</groupId>
+  <artifactId>simulator</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Weeels Dispatch Simulator</name>
+  <url>http://weeels.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.opentripplanner</groupId>
+    	<artifactId>opentripplanner-routing</artifactId>
+    	<version>0.8.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.processing</groupId>
+    	<artifactId>core</artifactId>
+    	<version>1.0.7</version>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>junit</groupId>
+  			<artifactId>junit</artifactId>
+  			<version>4.8.1</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+</project>
